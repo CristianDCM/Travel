@@ -1,0 +1,342 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+#dest {
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+/*Img Inicio*/
+#fondo {
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 50%);
+}
+
+/*Img Inicio2*/
+#fondo2 {
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 50%);
+    width: 55%;
+    margin: 10px 50px;
+    float: left;
+}
+
+#section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aside {
+    margin: 0.1em;
+    height: 50%;
+    background: #a4a4a4;
+    font-size: 2em;
+    text-align: center;
+}
+
+.horizontal {
+    width: 24.5%;
+    display: inline-flex;
+}
+
+/*Menu*/
+.menu-fixed {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.363);
+    height: 60px;
+}
+
+/*Logo*/
+.menu-fixed b a {
+    margin-left: 20px;
+    font-size: 2em;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav {
+    position: absolute;
+    width: 100%;
+    margin-bottom: auto;
+    background-color: rgba(24, 148, 250, 0.6);
+}
+
+header nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin-top: -52px;
+}
+
+header nav ul li {
+    float: right;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #ffffff;
+    background-color: rgba(41, 128, 185, 0.6);
+
+}
+
+/*Menu desplegable arreglo*/
+.menu-fixed ul li:hover>ul {
+    display: block;
+}
+
+.menu-fixed ul li ul {
+    display: none;
+    margin: 0;
+    padding: 0%;
+    min-width: 150px;
+    position: absolute;
+    margin-right: 100%;
+    margin-left: -2%;
+    background: rgba(24, 148, 250, 0.6);
+}
+
+.art {
+    width: 100%;
+    height: 50%;
+}
+
+.text {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: rgba(15, 142, 226, 0.5);
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.footer {
+    color: #fff;
+    text-align: left;
+}
+
+/*Margen 2 fondo*/
+.contdest {
+    height: 100%;
+}
+
+/*Card 2 Fondo*/
+.card-title {
+    margin-top: 2em;
+}
+
+.card {
+    width: 27em;
+    height: 32em;
+}
+
+/*Footer*/
+.cont {
+    border-top: 1px solid #cecccc;
+    border-bottom: 1px solid #cecccc;
+    background-color: #f7f7f7;
+    position: relative;
+    display: flex;
+    color: #444;
+}
+
+.bi {
+    margin-bottom: 0.5em;
+}
+
+.cuadros {
+    margin: 1em 6%;
+    list-style: none;
+}
+
+.cuadros li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    float: left;
+    font-size: 90%;
+}
+
+/*Icon Redes*/
+.redes {
+    text-align: center;
+}
+
+.redes a {
+    margin-bottom: 80%;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+/*CARRUSEL*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background: #fff(circle, rgba(255, 255, 255, 1) 0%, rgba(226, 226, 226, 1) 110%);
+}
+
+h4, h2, small, a {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Carousel {
+    width: 100%;
+    margin: 10px 15px 10px 36px;
+}
+
+.Carousel h2 {
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 24px;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+/*ImagenesCR*/
+.slick-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 300px;
+    padding: 5px 0px;
+    margin: 0px auto;
+    max-width: 94vw;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+.slick {
+    width: 255px;
+    padding: 0 17px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+
+.slick h4 {
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 23px;
+    color: #fff;
+    padding: 15px;
+}
+
+.slick h4 small {
+    font-size: 15px;
+    display: block;
+}
+
+.slick a img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+    transition: .3s ease-in-out;
+}
+
+.slick a img:hover {
+    opacity: .85;
+}
+
+/*Botones*/
+.slick-arrow {
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .15);
+    border: 0;
+    cursor: pointer;
+}
+
+.slick-arrow:focus {
+    outline: 0;
+}
+
+.slick-arrow svg {
+    width: 12px;
+    height: 100%;
+    color: rgba(0, 0, 0, .7);
+}
+
+.slick-prev {
+    left: 0px;
+}
+
+.slick-next {
+    right: 6px;
+}
+
+/*Pagina2*/
+.card blockquote p {
+    font-size: 13px;
+}
+
+.card-columns .card a {
+    text-decoration: none;
+    color: #444;
+}
+
+.card-title {
+    color: black;
+}
+
+/*Login menu*/
+.menu-fixed ul li #Login {
+    padding: 1em 1em;
+    margin-left: -8.5em;
+}
+
+/*Inputs menu*/
+.menu-fixed ul li #Login input {
+    height: 2.2em;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    border: 0;
+}
+
+/*Imput Inicio sesión*/
+.menu-fixed ul li #Login #enviar, #registrar {
+    width: 100%;
+    text-align: center;
+}

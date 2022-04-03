@@ -1,0 +1,4 @@
+/*Arreglo color*/
+.card-columns .card:hover{
+    background-color: rgba(24, 148, 250, 0.2);
+}

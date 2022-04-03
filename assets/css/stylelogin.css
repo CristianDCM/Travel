@@ -1,0 +1,89 @@
+/*Tabla1 margen*/
+.margen {
+  border: solid 1px rgb(0, 0, 0);
+  width: 22em;
+  height: auto;
+  background-color: #fff;
+  border: solid 1px #ddd;
+  border-radius: 5px;
+  color: #444;
+}
+
+.todo {
+  background-color: #eee;
+  padding-top: 7em;
+}
+
+.todo .margen h3 {
+  width: 100%;
+  margin-top: 20px;
+  color: #444;
+  text-align: center;
+}
+
+.redess {
+  text-align: center;
+  margin-top: 4em;
+}
+
+.redess a {
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+/*Botones*/
+.todo .margen .cuadro tr td .boton:hover {
+  background-color: rgb(58, 161, 245);
+  color: #fff;
+}
+
+.todo .margen .cuadro tr td .boton {
+  border-radius: 20px;
+  border-color: rgb(58, 161, 245);
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(58, 161, 245);
+  margin-top: 0.5em;
+  font-weight: 600;
+}
+
+.todo .margen .cuadro tr td .boton {
+  margin-left: 20px;
+}
+
+.todo .cuadro {
+  margin-top: 25px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.todo .cuadro tr td input {
+  padding: 10px;
+  border: solid 1px #eee;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.todo .cuadro tr td {
+  margin: auto;
+  padding: auto;
+}
+
+/*Cuadros*/
+.cuadro-inf {
+  margin: auto;
+  padding: auto;
+  border-collapse: collapse;
+}
+
+.cuadro-inf tr th, .cuadro-inf tr td {
+  border: solid 1px #000000;
+  padding: 2px 6px;
+  text-align: center;
+}
+
+b h3, th h2, td h3 {
+  text-align: center;
+  font-family: sans-serif;
+}
